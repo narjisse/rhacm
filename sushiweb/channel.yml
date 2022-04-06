@@ -6,4 +6,4 @@ metadata:
   namespace: sushi-cli
 spec:
   type: Git
-  pathname: https://github.com/narjisse/rhacm.gi
+  pathname: https://github.com/narjisse/rhacm.git

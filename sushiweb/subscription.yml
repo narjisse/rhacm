@@ -6,6 +6,10 @@ metadata:
   namespace: sushiweb-cli
   labels:
     app: sushiweb
+  annotations:
+    apps.open-cluster-management.io/git-branch: main
+    apps.open-cluster-management.io/git-path: sushiweb
+    apps.open-cluster-management.io/reconcile-option: merge  
 spec:
   channel: ggithubcom-narjisse-rhacm-ns/ggithubcom-narjisse-rhacm
   placement:

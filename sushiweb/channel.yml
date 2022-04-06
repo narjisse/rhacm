@@ -2,8 +2,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: sushiweb
-  namespace: sushiweb-cli
+  name:  ggithubcom-narjisse-rhacm
+  namespace: ggithubcom-narjisse-rhacm-ns
 spec:
   type: Git
   pathname: https://github.com/narjisse/rhacm.git

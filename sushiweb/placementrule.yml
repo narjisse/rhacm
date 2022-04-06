@@ -1,0 +1,13 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  annotations: {}
+  labels:
+    app: sushiweb
+  name: sushiweb-placement-1
+  namespace: sushiweb-cli
+spec:
+  clusterSelector:
+    matchLabels:
+      sushi: 'true'

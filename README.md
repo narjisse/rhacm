@@ -1,2 +1,4 @@
 # rhacm-demo
-A MariaDB demo for RHACM article
+RHACM enablement
+Application deployment on multicluster environment with RHACM. 
+
